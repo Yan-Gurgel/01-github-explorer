@@ -1,7 +1,7 @@
 {
   "name": "01-github-explorer",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "./src/index.jsx",
   "repository": "https://github.com/Yan-Gurgel/01-github-explorer.git",
   "author": "Yan-Gurgel <yan.gurgel@gmail.com>",
   "license": "MIT",
@@ -13,6 +13,9 @@
     "@babel/cli": "^7.13.14",
     "@babel/core": "^7.13.14",
     "@babel/preset-env": "^7.13.12",
-    "@babel/preset-react": "^7.13.13"
+    "@babel/preset-react": "^7.13.13",
+    "babel-loader": "^8.2.2",
+    "webpack": "^5.29.0",
+    "webpack-cli": "^4.6.0"
   }
 }
