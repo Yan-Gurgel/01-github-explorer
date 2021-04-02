@@ -1,8 +1,10 @@
 import { RepositoryItem } from "./RepositoryItem";
 
+import '../styles/repositories.scss';
+
 const repository = {
-    name: 'Repositorio',
-    description: 'descrição padrão',
+    name: 'unform',
+    description: 'Forms in React',
     link: 'https://www.google.com.br/'
 }
 
